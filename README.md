@@ -1,4 +1,5 @@
 # Chalet
+![IMG_5143](https://github.com/user-attachments/assets/8c63dfef-b072-4daf-b936-ec778f790b79)
 
 ## Principles
 

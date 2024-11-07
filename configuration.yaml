@@ -15,17 +15,25 @@ switch:
     switches:
       - port: 4
         name: "relay1"
+        invert_logic: true
       - port: 17
         name: "relay2"
+        invert_logic: true
       - port: 22
         name: "relay3"
+        invert_logic: true
       - port: 5
         name: "relay4"
+        invert_logic: true
       - port: 6
         name: "relay5"
+        invert_logic: true
       - port: 13
         name: "relay6"
+        invert_logic: true
       - port: 19
         name: "relay7"
+        invert_logic: true
       - port: 26
         name: "relay8"
+        invert_logic: true

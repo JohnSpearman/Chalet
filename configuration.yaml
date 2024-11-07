@@ -11,7 +11,7 @@ script: !include scripts.yaml
 scene: !include scenes.yaml
 
 switch:
-  - platform: rpi_gpio
+  - platform: rpi_gpio #requires rpi_gpio installation via HACS
     switches:
       - port: 4
         name: "relay1"

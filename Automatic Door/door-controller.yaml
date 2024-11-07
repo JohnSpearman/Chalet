@@ -1,1 +1,96 @@
+#stepper_motor.yaml
+esphome:
+  name: stepper-motor
+  friendly_name: stepper_motor
 
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "xyz"
+
+ota:
+  - platform: esphome
+    password: "xyz"
+
+wifi:
+  ssid: xyz
+  password: xyz
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Stepper-Motor Fallback Hotspot"
+    password: "xyz"
+
+captive_portal:
+
+#Controlling the stepper motor for door opening and closing
+stepper:
+  - platform: a4988
+    id: my_stepper
+    dir_pin: GPIO12 #"D12" on ESP32
+    step_pin: GPIO14 #"D14" on ESP32
+    max_speed: 250 steps/s #1-250 steps/s
+    #sleep_pin: GPIO13
+    acceleration: 100  # 1 bis inf
+    deceleration: 50  # 1 bis inf
+
+#Controlling the servo motor for window/door shutter
+servo:
+  - id: servo1
+    output: output1
+
+output:
+  - platform: ledc # For ESP8266 use: esp8266_pwm
+    id: output1
+    pin: GPIO15
+    frequency: 50 Hz # MUST BE 50Hz
+
+#For Dashboard
+number:
+  - platform: template
+    name: Stepper Control
+    min_value: -150     #-100
+    max_value: 150   #100
+    step: 1
+    set_action:
+      then:
+        - stepper.set_target:
+            id: my_stepper
+            target: !lambda 'return x;'    #target: !lambda 'return x*10;'
+  - platform: template
+    name: Servo Control
+    icon: mdi:sync
+    optimistic: true
+    min_value: -100
+    max_value: 100
+    initial_value: 0
+    step: 5
+    on_value:
+      then:
+        - lambda: !lambda |-
+            // Servo Write range is: -1.0 to 1.0, so divide by 100
+            id(servo1).write(x / 100.0);
+
+# One PIN is used to turn on (enable) the stepper motor driver
+switch:
+  - platform: gpio
+    pin: GPIO27
+    inverted: true
+    id: switch_motor_door
+    name: "Stepper Motor Enabler"
+
+# Input for micro switch as a sensor for a completely open door
+binary_sensor:
+  - platform: gpio
+    pin:
+      number: GPIO17
+      mode: INPUT_PULLDOWN
+    name: "Door completely open"
+    id: door_completely_open

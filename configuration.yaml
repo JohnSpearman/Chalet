@@ -37,3 +37,14 @@ switch:
       - port: 26
         name: "relay8"
         invert_logic: true
+
+# Input for micro switch as a sensor for a completely closed door
+binary_sensor:
+  - platform: rpi_gpio
+    sensors:
+      - port: 11
+        name: "Door completely closed"
+        unique_id: "door_completely_closed"
+        pull_mode: "DOWN"
+        invert_logic: true
+        bouncetime: 80

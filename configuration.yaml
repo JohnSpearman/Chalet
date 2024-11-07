@@ -1,1 +1,31 @@
 
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+switch:
+  - platform: rpi_gpio
+    switches:
+      - port: 4
+        name: "relay1"
+      - port: 17
+        name: "relay2"
+      - port: 22
+        name: "relay3"
+      - port: 5
+        name: "relay4"
+      - port: 6
+        name: "relay5"
+      - port: 13
+        name: "relay6"
+      - port: 19
+        name: "relay7"
+      - port: 26
+        name: "relay8"

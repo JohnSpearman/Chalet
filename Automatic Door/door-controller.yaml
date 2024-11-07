@@ -1,12 +1,9 @@
-#stepper_motor.yaml
 esphome:
-  name: stepper-motor
-  friendly_name: stepper_motor
+  name: automatic-door
+  friendly_name: automatic-door
 
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
+esp8266:
+  board: d1_mini
 
 # Enable logging
 logger:

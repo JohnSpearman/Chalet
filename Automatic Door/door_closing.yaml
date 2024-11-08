@@ -14,7 +14,7 @@ actions:
   - action: number.set_value
     metadata: {}
     data:
-      value: "-80"
+      value: "-94"
     target:
       entity_id: number.automatic_door_stepper_control
   - delay:
@@ -32,16 +32,21 @@ actions:
     data: {}
     target:
       entity_id: switch.automatic_door_stepper_motor_enabler
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
   - action: number.set_value
     metadata: {}
     data:
-      value: "-5"
+      value: "10"
     target:
       entity_id: number.automatic_door_stepper_control
   - delay:
       hours: 0
       minutes: 0
-      seconds: 4
+      seconds: 3
       milliseconds: 0
   - action: switch.turn_off
     metadata: {}

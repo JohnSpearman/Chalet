@@ -11,11 +11,6 @@ conditions:
     entity_id: binary_sensor.door_completely_closed_2
     state: "on"
 actions:
-  - action: input_boolean.turn_on
-    metadata: {}
-    data: {}
-    target:
-      entity_id: input_boolean.door_status
   - action: number.set_value
     metadata: {}
     data:
@@ -32,6 +27,11 @@ actions:
     data: {}
     target:
       entity_id: switch.automatic_door_stepper_motor_enabler
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
   - action: number.set_value
     metadata: {}
     data:
@@ -56,13 +56,13 @@ actions:
   - action: number.set_value
     metadata: {}
     data:
-      value: "-80"
+      value: "-94"
     target:
       entity_id: number.automatic_door_stepper_control
   - delay:
       hours: 0
       minutes: 0
-      seconds: 4
+      seconds: 3
       milliseconds: 0
   - action: switch.turn_off
     metadata: {}

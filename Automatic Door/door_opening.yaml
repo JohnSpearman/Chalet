@@ -1,0 +1,77 @@
+alias: door_opening
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - input_button.open_door
+    from: null
+    to: null
+conditions:
+  - condition: state
+    entity_id: binary_sensor.door_completely_closed_2
+    state: "on"
+actions:
+  - action: input_boolean.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: input_boolean.door_status
+  - action: number.set_value
+    metadata: {}
+    data:
+      value: "0"
+    target:
+      entity_id: number.automatic_door_stepper_control
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.automatic_door_stepper_motor_enabler
+  - action: number.set_value
+    metadata: {}
+    data:
+      value: "10"
+    target:
+      entity_id: number.automatic_door_stepper_control
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.relay1
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 0
+      milliseconds: 100
+  - action: number.set_value
+    metadata: {}
+    data:
+      value: "-80"
+    target:
+      entity_id: number.automatic_door_stepper_control
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 4
+      milliseconds: 0
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.relay1
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.automatic_door_stepper_motor_enabler
+mode: single

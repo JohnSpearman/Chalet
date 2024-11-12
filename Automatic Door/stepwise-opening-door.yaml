@@ -1,0 +1,105 @@
+alias: stepwise_opening_door
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - input_button.stepwise_open_door_completely
+    from: null
+    to: null
+conditions:
+  - condition: state
+    entity_id: binary_sensor.door_completely_closed_2
+    state: "off"
+  - condition: state
+    entity_id: binary_sensor.automatic_door_door_completely_open
+    state: "off"
+actions:
+  - repeat:
+      count: 12
+      sequence:
+        - choose:
+            - conditions:
+                - condition: state
+                  entity_id: binary_sensor.automatic_door_door_completely_open
+                  state: "on"
+              sequence:
+                - action: switch.turn_off
+                  metadata: {}
+                  data: {}
+                  target:
+                    entity_id: switch.automatic_door_stepper_motor_enabler
+            - conditions:
+                - condition: state
+                  entity_id: binary_sensor.automatic_door_door_completely_open
+                  state: "off"
+              sequence:
+                - action: number.set_value
+                  metadata: {}
+                  data:
+                    value: "0"
+                  target:
+                    entity_id: number.automatic_door_stepper_control
+                - action: switch.turn_off
+                  metadata: {}
+                  data: {}
+                  target:
+                    entity_id: switch.automatic_door_stepper_motor_enabler
+                - delay:
+                    hours: 0
+                    minutes: 0
+                    seconds: 0
+                    milliseconds: 200
+                - action: number.set_value
+                  metadata: {}
+                  data:
+                    value: "0"
+                  target:
+                    entity_id: number.automatic_door_stepper_control
+                - delay:
+                    hours: 0
+                    minutes: 0
+                    seconds: 0
+                    milliseconds: 179
+                - action: switch.turn_on
+                  metadata: {}
+                  data: {}
+                  target:
+                    entity_id: switch.automatic_door_stepper_motor_enabler
+                - action: number.set_value
+                  metadata: {}
+                  data:
+                    value: "-10"
+                  target:
+                    entity_id: number.automatic_door_stepper_control
+                - delay:
+                    hours: 0
+                    minutes: 0
+                    seconds: 0
+                    milliseconds: 500
+                - action: switch.turn_off
+                  metadata: {}
+                  data: {}
+                  target:
+                    entity_id: switch.automatic_door_stepper_motor_enabler
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.automatic_door_stepper_motor_enabler
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
+  - action: number.set_value
+    metadata: {}
+    data:
+      value: "0"
+    target:
+      entity_id: number.automatic_door_stepper_control
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 3
+      milliseconds: 0
+mode: single

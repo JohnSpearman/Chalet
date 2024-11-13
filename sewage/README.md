@@ -1,4 +1,4 @@
 # chalet as a processing unit
 
-<img width="614" alt="image" src="https://github.com/user-attachments/assets/da88452e-ef5c-40dd-a9d2-b1a7d228f295">
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/66e7d5e3-8eb4-42d4-8be3-80807e134be3">
 

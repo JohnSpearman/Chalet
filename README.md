@@ -19,4 +19,6 @@ This accomodation should serve every individual as a secure place for recreation
 Every person should experience a sustainable feeling of being able to create a lovely place that gives more than it consumes.
 
 
+
+# Chalet as a processing unit
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/c805ee66-a29e-43b3-b4d4-3d879be3ccf7">

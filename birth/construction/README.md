@@ -13,3 +13,9 @@ Parts list:
 * door (red)
 * window (blue)
 * furniture (not in image)
+
+
+Material list:
+
+| Material | URL | Price | 
+| straw bale | https://www.kleinanzeigen.de/s-hd-ballen/k0 | 3 € |

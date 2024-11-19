@@ -12,6 +12,8 @@ From outside to inside
 * high density straw bales
 * wooden ceiling
 
+<img width="963" alt="image" src="https://github.com/user-attachments/assets/81835a29-85ca-416f-9282-734dce7da4e1">
+
 ## Insulation
 
 ### U-value

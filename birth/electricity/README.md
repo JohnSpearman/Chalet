@@ -19,5 +19,3 @@
   * which cables should be used
   * create a case to cover the components and circuits
 * Every single circuit must have an appropriate fuse
-
-<img width="1035" alt="image" src="https://github.com/user-attachments/assets/17f7cf4c-723a-41d3-a08d-68fee378edd6">

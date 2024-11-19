@@ -17,6 +17,7 @@ Parts list:
 
 Material list:
 
-| Material | URL | Price | 
-|-|-|-|
-| straw bale | https://www.kleinanzeigen.de/s-hd-ballen/k0 | 3 € |
+| Material | URL | Price | Dimensions
+|-|-|-|-|
+| straw bale | https://www.kleinanzeigen.de/s-hd-ballen/k0 | 3 € | 100 cm x 50 cm x 36 cm |
+| spruce tongue and groove board | https://www.hornbach.de/p/nut-und-federbrett-kiefer-roh-b-sortierung-23x121x2000-mm/5115937/ | 4,35 € | 200 cm x 11.1 cm x 2.3 cm |

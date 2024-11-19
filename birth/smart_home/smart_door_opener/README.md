@@ -20,3 +20,6 @@ Functions:
 * any other visual or audible notification can be programmed to be triggered by door bell pusher
 * user can check from remote wheter the door is completely closed
 * if desired, user can set the door bell pusher functionality to activate the door opener directly
+
+Worth considering:
+* installation of an automatic door closer can ensure that the door always returns to the closed state

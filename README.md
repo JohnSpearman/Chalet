@@ -18,3 +18,8 @@ This accomodation should serve every individual as a secure place for recreation
 
 ### Self-efficacy
 Every person should experience a sustainable feeling of being able to create a lovely place that gives more than it consumes.
+
+## Circle of life
+* birth
+* life
+* death

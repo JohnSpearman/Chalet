@@ -18,4 +18,5 @@ Parts list:
 Material list:
 
 | Material | URL | Price | 
+|-|-|-|
 | straw bale | https://www.kleinanzeigen.de/s-hd-ballen/k0 | 3 € |

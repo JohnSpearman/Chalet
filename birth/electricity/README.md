@@ -9,5 +9,5 @@
 ## Explanation
 
 * Every project must take in consideration a solution for each "c" from the list above
-  * adf
+ * adf
 * Every single circuit must have an appropriate fuse

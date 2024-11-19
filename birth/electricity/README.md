@@ -10,8 +10,7 @@
 
 ## Explanation
 
-#
-<img width="389" alt="image" src="https://github.com/user-attachments/assets/6477ce9e-ed61-4e31-8dcf-8f5951a125a7">
+<img width="1022" alt="image" src="https://github.com/user-attachments/assets/6477ce9e-ed61-4e31-8dcf-8f5951a125a7">
 
 * Every project must take in consideration a solution for each "c" from the list above
   * which component is the best?
@@ -21,4 +20,4 @@
 * Every single circuit must have an appropriate fuse
 
 #
-<img width="425" alt="image" src="https://github.com/user-attachments/assets/361a377e-05f4-4ba8-b789-9753a40c6641">
+<img width="1022" alt="image" src="https://github.com/user-attachments/assets/361a377e-05f4-4ba8-b789-9753a40c6641">

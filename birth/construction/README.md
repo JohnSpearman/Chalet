@@ -17,7 +17,7 @@
 
 ## Material list
 
-| Material | URL | Price | Dimensions
+| Material | Price | Dimensions | URL |
 |-|-|-|-|
 | straw bale | 3 € | 100 cm x 50 cm x 36 cm | https://www.kleinanzeigen.de/s-hd-ballen/k0 |
 | spruce tongue and groove board | 4.35 € | 200 cm x 11.1 cm x 2.3 cm | https://www.hornbach.de/p/nut-und-federbrett-kiefer-roh-b-sortierung-23x121x2000-mm/5115937/ |

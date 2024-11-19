@@ -3,7 +3,7 @@
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/66e7d5e3-8eb4-42d4-8be3-80807e134be3">
 
 ### Inputs:
-* Power from the sun
+* power from the sun
 * information from the internet
 * water from the rain
 * food and packaging from the supermarket 

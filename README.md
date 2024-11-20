@@ -23,3 +23,19 @@ Every person should experience a sustainable feeling of being able to create a l
 * birth
 * life
 * death
+
+## Our story
+
+* Over decades construction work has adapted to consuming fossil resources in a variety of ways
+  * using petroleum derivates as building materials
+  * using fossil fuels to create energy intensive building materials as for example concrete and steel
+  * using petrol and diesel to transport heavy building materials and heavy tools like excavators
+  * using fossil fuels to supply the finished building with heat and electricity
+* let us restart from zero and use the best available knowledge to create a new housing concept
+  * house should last for 1000 years
+  * house should be carbon positive
+  * house should be energy positive
+  * house should match the expectations of living in the western world
+  * house construction should be so easy that it can be done by everyone on the planet
+* from a global perspective not every country needs to develop heavy industries to make the tools to build western housing
+  * instead a high living standard can be reached by everyone in the world and in the western world the carbon footprint of housing will be decreased drastically

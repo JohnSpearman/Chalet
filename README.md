@@ -20,9 +20,9 @@ This accomodation should serve every individual as a secure place for recreation
 Every person should experience a sustainable feeling of being able to create a lovely place that gives more than it consumes.
 
 ## Circle of life
-* birth
-* life
-* death
+1. Creation: Designing and building a sustainable, self-sufficient living space.
+2. Utilization: Fully living in and benefiting from the smart, eco-friendly home.
+3. Transformation: Adapting, renewing, or repurposing for future needs and sustainability.
 
 ## Our story
 

@@ -39,3 +39,6 @@ Every person should experience a sustainable feeling of being able to create a l
   * house construction should be so easy that it can be done by everyone on the planet
 * from a global perspective not every country needs to develop heavy industries to make the tools to build western housing
   * instead a high living standard can be reached by everyone in the world and in the western world the carbon footprint of housing will be decreased drastically
+ 
+<img width="456" alt="image" src="https://github.com/user-attachments/assets/c3c24d2a-cb08-4e89-9dad-f8b4c0b03e39">
+

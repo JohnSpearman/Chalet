@@ -1,5 +1,12 @@
 # Foundation
 
+## Important considerations
+- right amount of earth screws
+-- load bearing
+-- distance between screws
+- right lenth of earth screws
+- soil penetrability
+
 ## Earth screws
 
 ### Starting with one edge

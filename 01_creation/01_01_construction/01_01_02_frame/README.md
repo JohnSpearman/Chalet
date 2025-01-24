@@ -15,6 +15,8 @@
 ## Static
 
 <img width="335" alt="image" src="https://github.com/user-attachments/assets/880b9ecc-89fa-4fe3-980d-c2db9d8f769e" />
+<img width="294" alt="image" src="https://github.com/user-attachments/assets/cfda6b4a-77c2-4a56-b622-9f638e062edb" />
+
 
 ## Set up
 

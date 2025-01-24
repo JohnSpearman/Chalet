@@ -7,6 +7,8 @@
 - use high quality screws (e.g. M10 bolts with washers, stainless steel)
 - wide roof overhang for constructive wood protection
 - calculate forces (https://trussanalysis.com/)
+  - vertical snow load
+  - horizontal wind load
 
 ## 3D Rendering
 

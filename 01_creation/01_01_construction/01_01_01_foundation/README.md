@@ -4,7 +4,7 @@
 - right amount of earth screws
 -- load bearing
 -- distance between screws
-- right lenth of earth screws
+- right length of earth screws
 - soil penetrability
 
 ## Earth screws

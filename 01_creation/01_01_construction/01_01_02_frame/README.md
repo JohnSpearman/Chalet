@@ -9,6 +9,10 @@
 - calculate forces (https://trussanalysis.com/)
   - vertical snow load
   - horizontal wind load
+- beams must be checked for big knotholes
+- sustainability
+  - the majority of beams are not cut and therefore not degraded
+  - holes in beams can easily be filled with dowels or roundwoods for second use
 
 ## 3D Rendering
 

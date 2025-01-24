@@ -12,6 +12,7 @@
 - beams must be checked for big knotholes
 - sustainability
   - the majority of beams are not cut and therefore not degraded
+    - the diagonals must be cut to fit the design
   - holes in beams can easily be filled with dowels or roundwoods for second use
 
 ## 3D Rendering

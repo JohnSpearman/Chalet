@@ -21,3 +21,5 @@
 - toxic air pollution
 
 (if any of these dangers are likely, then the building at this particular place should be reconsidered or the construction design should be adjusted)
+
+![071C81B0-519B-4D63-B894-6FEDD40B609A_1_105_c](https://github.com/user-attachments/assets/b6078a4a-72cf-44b4-a156-16aba63e21b1)

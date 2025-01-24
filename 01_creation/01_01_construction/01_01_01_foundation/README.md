@@ -6,6 +6,7 @@
   - distance between each screw (bending of the beams)
 - right length of earth screws
 - soil penetrability
+- tightness of foundation plate for rodents and insects
 
 ## Earth screws
 

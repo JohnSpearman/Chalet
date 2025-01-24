@@ -11,7 +11,7 @@
 - out of range of trees that are likely to fall within the next 100 years
 - in preferred range of trees that spend shadow in summer and thereby prevent overheating
 
-## Potential extreme hazards
+## Potential extreme dangers
 - wildfire
 - earth quake
 - flooding
@@ -20,4 +20,4 @@
 - heavy snowfall
 - toxic air pollution
 
-(if any of these hazards is likely, then the building at this particular place should be reconsidered or the construction design should be adjusted)
+(if any of these dangers is likely, then the building at this particular place should be reconsidered or the construction design should be adjusted)

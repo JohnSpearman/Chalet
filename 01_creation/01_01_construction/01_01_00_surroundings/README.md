@@ -20,4 +20,4 @@
 - heavy snowfall
 - toxic air pollution
 
-(if any of these dangers is likely, then the building at this particular place should be reconsidered or the construction design should be adjusted)
+(if any of these dangers are likely, then the building at this particular place should be reconsidered or the construction design should be adjusted)

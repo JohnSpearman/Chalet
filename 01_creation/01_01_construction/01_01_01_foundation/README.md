@@ -2,8 +2,8 @@
 
 ## Important considerations
 - right amount of earth screws
-  - load bearing
-  - distance between screws
+  - load bearing capacity
+  - distance between each screw (bending of the beams)
 - right length of earth screws
 - soil penetrability
 

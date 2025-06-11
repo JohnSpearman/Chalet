@@ -22,4 +22,9 @@ From outside to inside
 
 ## Considerations and pitfalls
 
-
+* especially female blackbirds rob the moss to build their nests in April and June
+** to tackle this problem, a natural fibre net can be applied above the moss and fixated by the boards and stones
+* in spring and summer the moss is very likely to dry over long time periods
+** a granulate or wood fibre board can be placed under the moss and act like a sponge to store moisture
+* the wooden boards applied to fixate the EPDM foil tend to twist while exposed to rain and sun
+** better to use smaller board, e.g. macimal 50 cm long

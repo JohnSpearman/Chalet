@@ -1,6 +1,6 @@
 # Chalet
 
-![IMG_5143](https://github.com/user-attachments/assets/8c63dfef-b072-4daf-b936-ec778f790b79)
+![image](https://github.com/user-attachments/assets/2b7ff9c7-0ee3-4a74-aae0-4d8f2e308f6f)
 
 ## Principles
 
